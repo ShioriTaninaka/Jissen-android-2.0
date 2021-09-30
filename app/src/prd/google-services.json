@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "654088763863",
+    "project_id": "jissen-app",
+    "storage_bucket": "jissen-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654088763863:android:8e3a07e4c0cba40b8d7392",
+        "android_client_info": {
+          "package_name": "jp.ac.jissen.school.guide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654088763863-e02hpaspvma1q6oghgqm20530jfasnu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD17zIJsycg9EAZXT6usvw-H4p0PdkUb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654088763863-e02hpaspvma1q6oghgqm20530jfasnu8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "654088763863-jokr3h6hq9jghrtuv6vl6b3ub2g7830f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "jp.ac.jissen.school.guide"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654088763863:android:0ef092d0c46e079c8d7392",
+        "android_client_info": {
+          "package_name": "jp.ac.jissen.school.guide.stg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654088763863-e02hpaspvma1q6oghgqm20530jfasnu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD17zIJsycg9EAZXT6usvw-H4p0PdkUb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654088763863-e02hpaspvma1q6oghgqm20530jfasnu8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "654088763863-jokr3h6hq9jghrtuv6vl6b3ub2g7830f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "jp.ac.jissen.school.guide"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

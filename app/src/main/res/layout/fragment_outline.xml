@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Module: r2-testapp-kotlin
+  ~ Developers: Aferdita Muriqi, Clément Baumann, Mostapha Idoubihi, Paul Stoica
+  ~
+  ~ Copyright (c) 2018. European Digital Reading Lab. All rights reserved.
+  ~ Licensed to the Readium Foundation under one or more contributor license agreements.
+  ~ Use of this source code is governed by a BSD-style license which is detailed in the
+  ~ LICENSE file present in the project repository where this source code is maintained.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--    <com.google.android.material.tabs.TabLayout-->
+<!--        android:id="@+id/outline_tab_layout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:tabMode="scrollable"-->
+<!--        app:tabGravity="center"/>-->
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:background="@drawable/bg_tab_menu_book"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView_listBox">
+
+        <Button
+            android:id="@+id/btnContent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:paddingHorizontal="@dimen/margin_small"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_white"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:onClick="onContentsInListBoxPressed"
+            android:text="@string/toc" />
+
+        <Button
+            android:id="@+id/btnBookmark"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAllCaps="false"
+            android:paddingHorizontal="@dimen/margin_small"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:onClick="onBookmarkInListBoxPressed"
+            android:text="@string/bookmark" />
+    </LinearLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/outline_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

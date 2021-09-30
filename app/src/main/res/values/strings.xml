@@ -1,0 +1,306 @@
+<resources>
+    <!--    <string name="app_name">school-guide</string>-->
+    <string name="ok">はい</string>
+    <string name="cancel">キャンセル</string>
+
+    <string name="tab_my_schedule">マイスケジュール</string>
+    <string name="tab_handbook">CAREER PLANNING</string>
+    <string name="tab_setting">設定</string>
+    <string name="tab_information">お知らせ</string>
+
+    <string name="home_info">大学からのお知らせ</string>
+    <string name="home_schedule">マイスケジュール</string>
+    <string name="home_book">就活ハンドブック\nCAREER PLANNING</string>
+
+    <string name="permission_read_write_calendar_rationale_message">カレンダーのアクセスを「キャリプラ！」に許可しますか？</string>
+
+    <string name="notification_title">大学からのお知らせ</string>
+    <string name="notification_detail_title">お知らせタイトル</string>
+    <string name="schedule_title">マイスケジュール</string>
+
+    <string name="setting_title">設定</string>
+    <string name="setting_notify">通知設定</string>
+    <string name="setting_policy">プライバシーポリシー</string>
+    <string name="setting_contact_us">お問い合わせ</string>
+
+    <string name="no_data">データがありません</string>
+    <string name="err_network">インターネットに接続されていません。もう一度お試しください</string>
+    <string name="err_undefine">想定外エラーが発生しました。もう一度やり直してください</string>
+
+    <string name="calendar_name_jissen">実践女子大学</string>
+    <string name="calendar_name_job">就職活動</string>
+    <string name="default_notification_channel_id">school_guide</string>
+    <string name="confirm_disable_notify">Are you want disable receive notification?</string>
+    <string name="page">ページ</string>
+
+<!-- epub-->
+    <string name="reflowable_license">ea74-756a-79e7-8ecb</string>
+    <string name="fixed_license">7cb6-a654-2c55-33ee</string>
+
+    <string name="title_activity_home">HomeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="input_hint">キーワードを入力</string>
+<!--    <string name="cancel">Cancel</string>-->
+    <string name="highlight">ハイライト</string>
+
+    <string name="search_more">もっと検索</string>
+    <string name="search_finished">検索終了</string>
+    <string name="found">見つかりました</string>
+
+    <string name="bookmark">ブックマーク</string>
+    <string name="toc">目次</string>
+    <string name="note">Note</string>
+    <string name="resume">戻る</string>
+
+    <string name="delete">削除</string>
+<!--    <string name="ok">OK</string>-->
+
+    <string name="open">Open Book</string>
+    <string name="open_the_first_page">Open The First Page</string>
+
+    <string name="sort_by">Sort By</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="last_read">Last Read</string>
+    <string name="no_sort">No Sort</string>
+
+    <string name="title_activity_setting">Setting</string>
+
+    <string name="setting">Setting</string>
+    <string name="layout">Layout</string>
+    <string name="double_paged">Double Paged For Landscape</string>
+    <string name="rotation_lock">Lock Rotation</string>
+    <string name="global_pagination">Global Pagination</string>
+
+    <string name="network">Network</string>
+    <string name="allow3g4g">3G/4G Download</string>
+
+    <string name="theme">Theme</string>
+    <string name="themewhite">Theme White</string>
+    <string name="themebrown">Theme Brown</string>
+    <string name="themedark">Theme Dark</string>
+    <string name="themeblack">Theme Black</string>
+
+    <string name="page_transition_effect">Page Transition Effect</string>
+    <string name="none_effect">None</string>
+    <string name="slide_effect">Slide Effect</string>
+    <string name="curl_effect">Curl Effect</string>
+
+    <string name="voice">Voice</string>
+    <string name="mediaoverlay">MediaOverlay</string>
+    <string name="tts">Text To Speech</string>
+    <string name="auto_start_playing">Auto Start Playing</string>
+    <string name="auto_load_new_chapter">Auto Load New Chapter</string>
+    <string name="highlight_text_to_voice">Highlight Text To Voice</string>
+
+    <string name="global_pagination_warning">Global Pagination enables to show the page number for the entire of book.\n
+    It may take long time to finish the calculation of pages for whole book.\n
+    Whenever font name or font size are changed, Global Pagination tries to calculate the total page number again.\n
+    while the Global Pagination is going on, some user interfaces will be restricted to use.</string>
+
+    <string name="information">Information</string>
+    <string name="reader">SkyEpub SDK Advanced Demo IV In Kotlin</string>
+    <string name="skyepub">Copyrights SkyEpub Inc.</string>
+
+    <string name="not_read">未読</string>
+<!--    end epub-->
+
+
+<!--    new epub-->
+    <string name="menu_item_show_epub_list">Show List</string>
+    <string name="menu_item_add_epub">Add ePub</string>
+    <string name="menu_item_filter">Filter</string>
+    <string name="progress_wait_while_searching_book">Please wait.</string>
+    <string name="progress_wait">Please wait.</string>
+    <string name="progress_wait_while_downloading_book">Please wait while your publication is being downloaded.</string>
+    <string name="progress_wait_while_preparing_book">Please wait while your publication is being prepared.</string>
+    <string name="progress_wait_while_preparing_audiobook">Please wait while your audiobook is being prepared.</string>
+    <string name="progress_wait_while_loading_feed">Please wait while your feed is loading.</string>
+    <string name="error_invalid_epub">Invalid Epub</string>
+    <string name="fallback_no_description">No description</string>
+    <string name="button_dismiss">DISMISS</string>
+
+    <string name="epubactivity_drm_info">DRM Info</string>
+    <string name="epubactivity_set_bookmark">Add a bookmark</string>
+    <string name="epubactivity_settings">User Settings</string>
+    <string name="epubactivity_book_nav_options">Book navigation menu</string>
+    <string name="epubactivity_read_aloud_start">Read Aloud</string>
+    <string name="epubactivity_read_aloud_stop">Stop Read Aloud</string>
+    <string name="epubactivity_search">Search</string>
+
+    <string name="epubactivity_accessibility">Accessibility</string>
+    <string name="epubactivity_accessibility_screen_reader_start">Start Screen Reader</string>
+    <string name="epubactivity_accessibility_screen_reader_pause">Pause Screen Reader</string>
+    <string name="epubactivity_accessibility_screen_reader_resume">Resume Screen Reader</string>
+    <string name="epubactivity_accessibility_screen_reader_stop">Stop Screen Reader</string>
+
+    <string name="permission_read_ext_explanation">The app needs to read your storage so it can read and write books.</string>
+    <string name="permission_external_new_explanation">Can\'t read or write books without permission</string>
+    <string name="permission_read_ext_request">Should we ask for the permission again?</string>
+    <string name="permission_request_again">Request again</string>
+    <string name="permission_retry">Retry?</string>
+    <string name="permission_goto_settings">Settings</string>
+
+
+    <string name="title_activity_opdscatalog">OPDS Catalog</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_r2_about">About R2 Reader</string>
+    <string name="title_activity_opds_list">OPDS Feeds</string>
+    <string name="title_activity_opds_detail">Detail</string>
+    <string name="title_fragment_drm_management">DRM Management</string>
+    <string name="title_activity_epub">Detail</string>
+    <string name="floating_button_add_book">Add a Book</string>
+    <string name="floating_button_add_feed">Add a OPDS Feed</string>
+    <string name="about_r2_reader">About R2 Reader</string>
+    <string name="more_options">More Options</string>
+    <string name="opds_feeds">OPDS Feeds</string>
+    <string name="popup_delete_button">DELETE</string>
+    <string name="add_publication_to_library">Add a publication to your library</string>
+    <string name="select_from_your_device">select from your device</string>
+    <string name="download_from_url">download from a url</string>
+
+    <string name="app_version_header">Version</string>
+    <string name="app_version_label">App Version:</string>
+    <string name="app_version">2.2.0</string>
+    <string name="github_tab_label">GitHub Tag:</string>
+    <string name="github_tag">2.2.0</string>
+
+    <string name="copyright_label">Copyright</string>
+    <string name="copyright">\@ 2019 European Digital Reading Lab</string>
+    <string name="bsd_license_label">[BSD-3 license]</string>
+    <string name="bsd_license_label_accessible">[B S D 3 license]</string>
+    <string name="acknowledgements_label">Acknowledgements</string>
+    <string name="acknowledgements_french_state">R2 Reader wouldn\'t have been developed without the financial help of the French state.</string>
+    <string name="catalog_list_more">More…</string>
+    <string name="catalog_detail_download_button">Download</string>
+
+
+    <string name="menu_label_drm">DRM</string>
+    <string name="menu_label_settings">Settings</string>
+    <string name="menu_label_toc">TOC</string>
+    <string name="usersettings_label_font">Font</string>
+    <string name="usersettings_appearance_default">Default</string>
+    <string name="usersettings_appearance_sepia">Sepia</string>
+    <string name="usersettings_appearance_night">Night</string>
+    <string name="usersettings_label_scroll_mode">Scroll mode</string>
+    <string name="usersettings_publisher_default">"Publisher's Default"</string>
+    <string name="usersettings_publisher_default_accessibility">"Publisher's Default Settings"</string>
+    <string name="usersettings_label_columns">Columns</string>
+    <string name="usersettings_auto">Auto</string>
+    <string name="usersettings_column_one">1</string>
+    <string name="usersettings_column_two">2</string>
+    <string name="usersettings_label_page_margins">Page Margins</string>
+    <string name="usersettings_page_margin_default">0.75</string>
+    <string name="usersettings_label_word_spacing">Word Spacing</string>
+    <string name="usersettings_label_letter_spacing">Letter Spacing</string>
+    <string name="usersettings_label_line_height">Line Height</string>
+    <string name="usersettings_label_TTS_speech_speed">TTS speed</string>
+
+    <!-- Accessibility -->
+
+    <string name="usersettings_description_TTS_speech_speed">Set TTS speech speed</string>
+    <string name="usersettings_description_brightness">Set Brightness</string>
+    <string name="usersettings_description_font_increase">Increase Font Size</string>
+    <string name="usersettings_description_font_decrease">Decrease Font Size</string>
+    <string name="usersettings_description_pm_increase">Increase Page Margins Size</string>
+    <string name="usersettings_description_pm_decrease">Decrease Page Margins Size</string>
+    <string name="usersettings_description_ws_increase">Increase Word Spacing</string>
+    <string name="usersettings_description_ws_decrease">Decrease Word Spacing</string>
+    <string name="usersettings_description_ls_increase">Increase Letter Spacing</string>
+    <string name="usersettings_description_ls_decrease">Decrease Letter Spacing</string>
+    <string name="usersettings_description_lh_increase">Increase Line Height</string>
+    <string name="usersettings_description_lh_decrease">Decrease Line Height</string>
+
+    <string name="drm_information_header">INFORMATION</string>
+    <string name="drm_label_license_type">License Type</string>
+    <string name="drm_label_state">State</string>
+    <string name="drm_label_provider">Provider</string>
+    <string name="drm_label_issued">Issued</string>
+    <string name="drm_label_updated">Updated</string>
+    <string name="drm_label_rights">RIGHTS</string>
+    <string name="drm_label_prints_left">Prints left</string>
+    <string name="drm_label_copies_left">Copies left</string>
+    <string name="drm_label_start">Start</string>
+    <string name="drm_label_end">End</string>
+    <string name="drm_label_potential_right_end">Potential right end</string>
+    <string name="drm_label_actions">ACTIONS</string>
+    <string name="drm_label_renew">RENEW</string>
+    <string name="drm_label_return">RETURN</string>
+    <string name="zero">00:00</string>
+    <string name="chapter">Chapter</string>
+    <string name="chapter_page">Chapter / Page</string>
+    <string name="progression">Progression</string>
+    <string name="timestamp">Timestamp</string>
+
+    <string-array name="font_list">
+        <item>Original</item>
+        <item>PT Serif</item>
+        <item>Roboto</item>
+        <item>Source Sans Pro</item>
+        <item>Vollkorn</item>
+        <item>OpenDyslexic</item>
+        <item>AccessibleDfA</item>
+        <item>IA Writer Duospace</item>
+    </string-array>
+
+    <!-- Outlines -->
+    <string name="contents_tab_label">Contents</string>
+    <string name="bookmarks_tab_label">Bookmarks</string>
+    <string name="highlights_tab_label">Highlights</string>
+    <string name="pagelist_tab_label">Page List</string>
+    <string name="landmarks_tab_label">Landmarks</string>
+    <string name="action_mode_menu_highlight">Highlight</string>
+    <string name="action_mode_menu_note">Note</string>
+    <string name="bookmark_added">Bookmark added</string>
+    <string name="bookmark_exists">Bookmark already exists</string>
+
+    <string name="title_catalogs">Catalogs</string>
+    <string name="title_bookshelf">Bookshelf</string>
+    <string name="title_about">About</string>
+    <string name="cover_image">Cover Image</string>
+    <string name="repfr">repfr</string>
+
+
+    <string name="confirm_delete_book_title">Delete Book?</string>
+    <string name="confirm_delete_book_text">Are you sure you want to delete this book?</string>
+    <string name="confirm_delete_catalog_title">Delete Catalog?</string>
+    <string name="confirm_delete_catalog_text">Are you sure you want to delete this Catalog feed?</string>
+
+    <string name="add_book">Add a Book</string>
+    <string name="add_catalog">Add an Catalog Feed</string>
+
+    <string name="save">Save</string>
+    <string name="enter_title">Enter the Title</string>
+    <string name="enter_url">Enter the URL</string>
+    <string name="invalid_title">Please enter a title</string>
+    <string name="invalid_url">Please enter a valid URL</string>
+    <string name="catalog_parse_error">Error parsing Catalog feed. Please check the URL and try again</string>
+
+    <string name="publication_image_description">Cover image for %1$s</string>
+
+    <string name="return_publication">This will return the publication</string>
+    <string name="return_button">Return</string>
+
+    <string name="end_of_chapter">End of chapter</string>
+
+    <string name="unable_to_move_pub">Unable to move publication into the library</string>
+    <string name="import_publication_success">Publication added to your library</string>
+    <string name="unable_add_pub_database">Unable to add publication to the database</string>
+    <string name="failed_parsing_catalog">Failed parsing Catalog</string>
+    <string name="next_chapter">Next chapter</string>
+    <string name="next_sentence">Next sentence</string>
+    <string name="play_and_pause">Play and pause</string>
+    <string name="previous_sentence">Previous sentence</string>
+    <string name="previous_chapter">Previous chapter</string>
+    <string name="replay_10">Replay previous 10 seconds</string>
+    <string name="forward_10">Fast forward 10 seconds</string>
+
+</resources>

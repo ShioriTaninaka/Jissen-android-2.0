@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="badge_left_margin">40dp</dimen>
+    <dimen name="button_home_height">60dp</dimen>
+    <dimen name="button_home_text_size">20sp</dimen>
+    <dimen name="setting_item_height">70dp</dimen>
+</resources>

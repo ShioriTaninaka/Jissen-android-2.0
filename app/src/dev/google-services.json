@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "905153039147",
+    "project_id": "jissen-app2",
+    "storage_bucket": "jissen-app2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905153039147:android:b9c7d07c132440e9e9536e",
+        "android_client_info": {
+          "package_name": "jp.ac.jissen.school.guide.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905153039147-nfdjomevdq21948ag75g5vklp3te0hn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqnM20m_92EZNszSVt753ej6wDi9rOpl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905153039147-nfdjomevdq21948ag75g5vklp3te0hn6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

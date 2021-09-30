@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/body_highlightBox"
+    android:layout_width="95dp"
+    android:layout_height="45dp">
+
+    <ImageButton
+        android:id="@+id/colorButton_highlightBox"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:background="#00FFFFFF"
+        android:onClick="onColorInHighlightBoxPressed"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/colorchooser"
+        tools:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/trashButton_highlightBox"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="10dp"
+        android:background="#00FFFFFF"
+        android:onClick="onTrashInHighlightBoxPressed"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@+id/colorButton_highlightBox"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/trash"
+        tools:visibility="visible" />
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/noteButton_highlightBox"-->
+<!--        android:layout_width="24dp"-->
+<!--        android:layout_height="24dp"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:layout_marginEnd="21dp"-->
+<!--        android:layout_marginRight="21dp"-->
+<!--        android:background="#00FFFFFF"-->
+<!--        android:onClick="onNoteInHighlightBoxPressed"-->
+<!--        android:scaleType="centerInside"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/shareButton_highlightBox"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/note"-->
+<!--        tools:visibility="visible" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/shareButton_highlightBox"-->
+<!--        android:layout_width="24dp"-->
+<!--        android:layout_height="24dp"-->
+<!--        android:layout_marginTop="11dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:layout_marginRight="16dp"-->
+<!--        android:background="#00FFFFFF"-->
+<!--        android:onClick="onShareInHighlightBoxPressed"-->
+<!--        android:scaleType="centerInside"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/share"-->
+<!--        tools:visibility="visible" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

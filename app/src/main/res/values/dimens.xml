@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="btn_height">46dp</dimen>
+    <dimen name="badge_left_margin">40dp</dimen>
+    <dimen name="btn_corner">23dp</dimen>
+
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_big">32dp</dimen>
+
+    <dimen name="text_size_big">16sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+
+
+    <dimen name="notify_image_width">80dp</dimen>
+    <dimen name="btn_list_video_height">60dp</dimen>
+    <dimen name="btn_list_video_corner">30dp</dimen>
+
+    <dimen name="text_code_width">18dp</dimen>
+    <dimen name="text_code_corner">9dp</dimen>
+
+    <dimen name="btn_number_width">70dp</dimen>
+    <dimen name="text_size_number">30sp</dimen>
+
+    <dimen name="edt_height">50dp</dimen>
+
+    <dimen name="searchbox_border">18dp</dimen>
+
+    <dimen name="width_column_1">70dp</dimen>
+
+    <dimen name="height_image">200dp</dimen>
+    <dimen name="width_image">300dp</dimen>
+
+    <dimen name="tablet_margin">80dp</dimen>
+    <dimen name="min_height_view_choose_image">170dp</dimen>
+
+    <dimen name="drawable_left_size">24dp</dimen>
+
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">10sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">10sp</dimen>
+
+    <dimen name="button_home_height">70dp</dimen>
+    <dimen name="button_home_text_size">20sp</dimen>
+    <dimen name="setting_item_height">70dp</dimen>
+
+</resources>

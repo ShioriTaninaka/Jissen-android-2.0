@@ -1,0 +1,4 @@
+include ':skyepub'
+include ':app'
+rootProject.name = "school-guide"
+include ':r2-navigator'

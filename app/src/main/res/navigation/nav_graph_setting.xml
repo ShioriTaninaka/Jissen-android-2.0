@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_setting"
+    app:startDestination="@id/settingFragment">
+
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.newit.school_guide.feat.SettingFragment"
+        tools:layout="@layout/fragment_handbook"
+        android:label="VideoFragment" >
+        <action
+            android:id="@+id/action_settingFragment_to_webviewFragment"
+            app:destination="@id/webviewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/webviewFragment"
+        android:name="com.newit.school_guide.feat.WebviewFragment"
+        android:label="WebviewFragment" />
+
+</navigation>
